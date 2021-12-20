@@ -1,0 +1,25 @@
+### Register Request
+
+POST https://3001-black-ladybug-z7m7741f.ws-us23.gitpod.io/api/register
+Content-Type: application/json
+
+{
+    "email": "no124@no.com",
+    "password": "Pass1234"
+}
+
+### Login Request
+
+POST https://3001-black-ladybug-z7m7741f.ws-us23.gitpod.io/api/login
+Content-Type: application/json
+
+{
+    "email": "no124@no.com",
+    "password": "Pass1234"
+}
+
+
+### user info request
+
+GET https://3001-black-ladybug-z7m7741f.ws-us23.gitpod.io/api/userinfo
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYzOTk2NDM1MywianRpIjoiZTZiY2NhMGYtNGU3ZC00NzM0LTk3NzItYTFiYTU4Yzk1NjU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6NSwibmJmIjoxNjM5OTY0MzUzLCJleHAiOjE2Mzk5NjUyNTN9.5PA0KAhaCQC1z49dR_M7dY5c41Kv6MPukd5XxrWwoyg
